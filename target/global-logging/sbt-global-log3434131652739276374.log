@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\ADMIN\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\ADMIN\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Oracle Corporation Java 14.0.1)
+[debug]       Load.loadUnit: plugins took 456.2614ms
+[debug]       Load.loadUnit: defsScala took 0.7351ms
+[debug] [Loading] Scanning directory C:\Users\ADMIN\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ADMIN\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 129.357 ms
+[debug]           Load.resolveProject(global-plugins) took 259.6011ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\ADMIN\.sbt\1.0\plugins, plugins: List(<none>))) took 553.5958ms
+[debug] [Loading] Done in C:\Users\ADMIN\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 712.9783ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.6636ms
+[debug]     Load.loadUnit(file:/C:/Users/ADMIN/.sbt/1.0/plugins/, ...) took 1205.6759ms
+[debug]   Load.apply: load took 2347.0619ms
+[debug]   Load.apply: resolveProjects took 24.7946ms
+[debug]   Load.apply: finalTransforms took 403.4669ms
+[debug]   Load.apply: config.delegates took 45.6961ms
+[debug]   Load.apply: Def.make(settings)... took 29753.3013ms
+[debug]   Load.apply: structureIndex took 466.8889ms
+[debug]   Load.apply: mkStreams took 3.8259ms
+[info] loading global plugins from C:\Users\ADMIN\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 49441.9458ms
+[debug]           Load.loadUnit: plugins took 60.4823ms
+[debug]           Load.loadUnit: defsScala took 0.0087ms
+[debug] [Loading] Scanning directory C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL\project
+[debug]             Load.loadUnit: mkEval took 33.7264ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.8785 ms
+[info] loading settings for project root-00-hellosparksql-build from idea.sbt ...
+[debug]               Load.resolveProject(root-00-hellosparksql-build) took 12.9568ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id root-00-hellosparksql-build, base: C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL\project, plugins: List(<none>))) took 18.9659ms
+[debug] [Loading] Done in C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL\project, returning: (root-00-hellosparksql-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 10326.3502ms
+[debug]           Load.loadUnit: cleanEvalClasses took 15.2465ms
+[debug]         Load.loadUnit(file:/C:/installations/Spark-Streaming-In-Scala-master/00-HelloSparkSQL/project/, ...) took 10403.9034ms
+[debug]       Load.apply: load took 10407.999ms
+[debug]       Load.apply: resolveProjects took 0.2104ms
+[debug]       Load.apply: finalTransforms took 29.0549ms
+[debug]       Load.apply: config.delegates took 0.9904ms
+[debug]       Load.apply: Def.make(settings)... took 407.3405ms
+[debug]       Load.apply: structureIndex took 207.7872ms
+[debug]       Load.apply: mkStreams took 0.0049ms
+[info] loading project definition from C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 19777.1257ms
+[debug]     Load.loadUnit: defsScala took 0.0082ms
+[debug] [Loading] Scanning directory C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL
+[debug]       Load.loadUnit: mkEval took 23.4007ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 7.6628 ms
+[info] loading settings for project root-00-hellosparksql from build.sbt ...
+[debug]         Load.resolveProject(root-00-hellosparksql) took 94.8866ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root-00-hellosparksql, base: C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL, plugins: List(<none>))) took 105.1407ms
+[debug] [Loading] Done in C:\installations\Spark-Streaming-In-Scala-master\00-HelloSparkSQL, returning: (root-00-hellosparksql)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5116.0262ms
+[debug]     Load.loadUnit: cleanEvalClasses took 85.3116ms
+[debug]   Load.loadUnit(file:/C:/installations/Spark-Streaming-In-Scala-master/00-HelloSparkSQL/, ...) took 24980.0609ms
+[debug] Load.apply: load took 24983.7495ms
+[debug] Load.apply: resolveProjects took 0.1993ms
+[debug] Load.apply: finalTransforms took 56.1759ms
+[debug] Load.apply: config.delegates took 0.5445ms
+[debug] Load.apply: Def.make(settings)... took 229.3891ms
+[debug] Load.apply: structureIndex took 64.6479ms
+[debug] Load.apply: mkStreams took 0.0049ms
+[info] set current project to 04-HelloSparkSQL (in build file:/C:/installations/Spark-Streaming-In-Scala-master/00-HelloSparkSQL/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 5158 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 5158, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to 04-HelloSparkSQL (in build file:/C:/installations/Spark-Streaming-In-Scala-master/00-HelloSparkSQL/)
+[debug] > Exec(idea-shell, None, None)

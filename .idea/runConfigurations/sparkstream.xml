@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="sparkstream" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="-Dlog4j.configuration" value="file:log4j.properties" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="guru.learningjournal.spark.examples.HelloSparkSQL" />
+    <module name="04-HelloSparkSQL" />
+    <option name="PROGRAM_PARAMETERS" value="-Dlog4j.configuration=file:log4j.properties" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
